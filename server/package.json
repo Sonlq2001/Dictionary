@@ -1,0 +1,16 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"main": "src/app.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon ./src/app.js"
+	},
+	"dependencies": {
+		"apollo-server-express": "^3.6.4",
+		"express": "^4.17.3",
+		"graphql": "^16.3.0",
+		"mongoose": "^6.2.7",
+		"nodemon": "^2.0.15"
+	}
+}
